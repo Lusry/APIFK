@@ -149,15 +149,55 @@ page 60056 "FK Good ReceiptNote Card"
                     ApplicationArea = all;
                     ToolTip = 'Specifies value of the field.';
                 }
-                field("Vendor No. Intranet"; Rec."Vendor No. Intranet")
+                // field("Vendor No. Intranet"; Rec."Vendor No. Intranet")
+                // {
+                //     ToolTip = 'Specifies value of the field.';
+                //     ApplicationArea = all;
+                // }
+                // field("Ref. GR No. Intranet"; Rec."Ref. GR No. Intranet")
+                // {
+                //     ToolTip = 'Specifies value of the field.';
+                //     ApplicationArea = all;
+                // }
+                group("For Receiving")
                 {
-                    ToolTip = 'Specifies value of the field.';
-                    ApplicationArea = all;
-                }
-                field("Ref. GR No. Intranet"; Rec."Ref. GR No. Intranet")
-                {
-                    ToolTip = 'Specifies value of the field.';
-                    ApplicationArea = all;
+                    field("Posting Date"; Rec."Posting Date")
+                    {
+                        ToolTip = 'Specifies value of the field.';
+                        ApplicationArea = all;
+                    }
+                    field("Receiving No. Series"; Rec."Receiving No. Series")
+                    {
+                        ToolTip = 'Specifies value of the field.';
+                        ApplicationArea = all;
+                    }
+                    field("Vendor Order No."; Rec."Vendor Order No.")
+                    {
+                        ToolTip = 'Specifies value of the field.';
+                        ApplicationArea = all;
+                    }
+                    field("Vendor Invoice No."; Rec."Vendor Invoice No.")
+                    {
+                        ToolTip = 'Specifies value of the field.';
+                        ApplicationArea = all;
+                    }
+                    field("Vendor Shipment No."; Rec."Vendor Shipment No.")
+                    {
+                        ToolTip = 'Specifies value of the field.';
+                        ApplicationArea = all;
+                    }
+                    field("Vendor No. Intranet"; Rec."Vendor No. Intranet")
+                    {
+                        ToolTip = 'Specifies value of the field.';
+                        ApplicationArea = all;
+                        Editable = false;
+                    }
+                    field("Ref. GR No. Intranet"; Rec."Ref. GR No. Intranet")
+                    {
+                        ToolTip = 'Specifies value of the field.';
+                        ApplicationArea = all;
+                        Editable = false;
+                    }
                 }
             }
             part("TPP PurchLines"; "FK Good ReceiptNote Subpage")

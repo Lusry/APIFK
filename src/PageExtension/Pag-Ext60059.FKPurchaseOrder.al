@@ -5,7 +5,7 @@ pageextension 60059 "FK Purchase Order" extends "Purchase Order"
 {
     layout
     {
-        addlast(General)
+        addafter("Expected Receipt Date")
         {
             field("Vendor No. Intranet"; Rec."Vendor No. Intranet")
             {

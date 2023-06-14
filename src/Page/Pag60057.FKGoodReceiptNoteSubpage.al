@@ -65,16 +65,19 @@ page 60057 "FK Good ReceiptNote Subpage"
                     ApplicationArea = all;
                     ToolTip = 'Specifies value of the field.';
                 }
-                field("TPP Outstanding Quantity"; Rec."Outstanding Quantity")
-                {
-                    ApplicationArea = all;
-                    ToolTip = 'Specifies value of the field.';
-                }
+
                 field("TPP Unit Cost"; Rec."Unit Cost")
                 {
                     ApplicationArea = all;
                     ToolTip = 'Specifies value of the field.';
                 }
+
+                field("TPP Line Amount"; Rec."Line Amount")
+                {
+                    ApplicationArea = all;
+                    ToolTip = 'Specifies value of the field.';
+                }
+
                 field("TPP Qty. to Receive"; Rec."Qty. to Receive")
                 {
                     ApplicationArea = all;
@@ -85,12 +88,12 @@ page 60057 "FK Good ReceiptNote Subpage"
                     ApplicationArea = all;
                     ToolTip = 'Specifies value of the field.';
                 }
-                field("TPP Line Amount"; Rec."Line Amount")
-                {
-                    ApplicationArea = all;
-                    ToolTip = 'Specifies value of the field.';
-                }
-                field("TPP Line Discount %"; Rec."Line Discount %")
+                // field("TPP Line Discount %"; Rec."Line Discount %")
+                // {
+                //     ApplicationArea = all;
+                //     ToolTip = 'Specifies value of the field.';
+                // }
+                field("TPP Outstanding Quantity"; Rec."Outstanding Quantity")
                 {
                     ApplicationArea = all;
                     ToolTip = 'Specifies value of the field.';

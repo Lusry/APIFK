@@ -63,22 +63,22 @@ page 60055 "FK Good ReceiptNote List"
                     ToolTip = 'Specifies value of the field.';
                 }
 
-                field("TPP Amount"; Rec.Amount)
-                {
-                    ApplicationArea = all;
-                    ToolTip = 'Specifies value of the field.';
-                }
+                // field("TPP Amount"; Rec.Amount)
+                // {
+                //     ApplicationArea = all;
+                //     ToolTip = 'Specifies value of the field.';
+                // }
 
-                field("TPP Amount Including VAT"; Rec."Amount Including VAT")
-                {
-                    ApplicationArea = all;
-                    ToolTip = 'Specifies value of the field.';
-                }
-                field("TPP Currency Code"; Rec."Currency Code")
-                {
-                    ApplicationArea = all;
-                    ToolTip = 'Specifies value of the field.';
-                }
+                // field("TPP Amount Including VAT"; Rec."Amount Including VAT")
+                // {
+                //     ApplicationArea = all;
+                //     ToolTip = 'Specifies value of the field.';
+                // }
+                // field("TPP Currency Code"; Rec."Currency Code")
+                // {
+                //     ApplicationArea = all;
+                //     ToolTip = 'Specifies value of the field.';
+                // }
                 field("TPP Shortcut Dimension 1 Code"; Rec."Shortcut Dimension 1 Code")
                 {
                     ApplicationArea = all;
