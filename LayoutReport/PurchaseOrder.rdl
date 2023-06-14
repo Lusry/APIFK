@@ -11,6 +11,229 @@
       <rd:DataSourceID>bdc190d4-e4db-4b1a-8aa7-16b2708d5002</rd:DataSourceID>
     </DataSource>
   </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+      <Fields>
+        <Field Name="CompName">
+          <DataField>CompName</DataField>
+        </Field>
+        <Field Name="CompAdd">
+          <DataField>CompAdd</DataField>
+        </Field>
+        <Field Name="CompAdd2">
+          <DataField>CompAdd2</DataField>
+        </Field>
+        <Field Name="CompPicture">
+          <DataField>CompPicture</DataField>
+        </Field>
+        <Field Name="CompPhone">
+          <DataField>CompPhone</DataField>
+        </Field>
+        <Field Name="ComFax">
+          <DataField>ComFax</DataField>
+        </Field>
+        <Field Name="ComTaxID">
+          <DataField>ComTaxID</DataField>
+        </Field>
+        <Field Name="ComMail">
+          <DataField>ComMail</DataField>
+        </Field>
+        <Field Name="BuyFromCode">
+          <DataField>BuyFromCode</DataField>
+        </Field>
+        <Field Name="BuyFromName">
+          <DataField>BuyFromName</DataField>
+        </Field>
+        <Field Name="BuyFromAdd">
+          <DataField>BuyFromAdd</DataField>
+        </Field>
+        <Field Name="BuyFromAdd2">
+          <DataField>BuyFromAdd2</DataField>
+        </Field>
+        <Field Name="BuyFromContact">
+          <DataField>BuyFromContact</DataField>
+        </Field>
+        <Field Name="BuyFromPhone">
+          <DataField>BuyFromPhone</DataField>
+        </Field>
+        <Field Name="BuyFromFax">
+          <DataField>BuyFromFax</DataField>
+        </Field>
+        <Field Name="DocumentNo">
+          <DataField>DocumentNo</DataField>
+        </Field>
+        <Field Name="DocumentDate">
+          <DataField>DocumentDate</DataField>
+        </Field>
+        <Field Name="DocumentAmount">
+          <DataField>DocumentAmount</DataField>
+        </Field>
+        <Field Name="DocumentAmountFormat">
+          <DataField>DocumentAmountFormat</DataField>
+        </Field>
+        <Field Name="DocumentVATAmount">
+          <DataField>DocumentVATAmount</DataField>
+        </Field>
+        <Field Name="DocumentVATAmountFormat">
+          <DataField>DocumentVATAmountFormat</DataField>
+        </Field>
+        <Field Name="DocumentVAT">
+          <DataField>DocumentVAT</DataField>
+        </Field>
+        <Field Name="DocumentVATFormat">
+          <DataField>DocumentVATFormat</DataField>
+        </Field>
+        <Field Name="DocumentVATText">
+          <DataField>DocumentVATText</DataField>
+        </Field>
+        <Field Name="VendTaxID">
+          <DataField>VendTaxID</DataField>
+        </Field>
+        <Field Name="VendContract">
+          <DataField>VendContract</DataField>
+        </Field>
+        <Field Name="VendMail">
+          <DataField>VendMail</DataField>
+        </Field>
+        <Field Name="VendorOrderNo">
+          <DataField>VendorOrderNo</DataField>
+        </Field>
+        <Field Name="PaytoName">
+          <DataField>PaytoName</DataField>
+        </Field>
+        <Field Name="PurchaserName">
+          <DataField>PurchaserName</DataField>
+        </Field>
+        <Field Name="PurchaserPhone">
+          <DataField>PurchaserPhone</DataField>
+        </Field>
+        <Field Name="PurhcaserMail">
+          <DataField>PurhcaserMail</DataField>
+        </Field>
+        <Field Name="RefPRNo">
+          <DataField>RefPRNo</DataField>
+        </Field>
+        <Field Name="ExpectedReceiptDate">
+          <DataField>ExpectedReceiptDate</DataField>
+        </Field>
+        <Field Name="PaymentTermDesc">
+          <DataField>PaymentTermDesc</DataField>
+        </Field>
+        <Field Name="ShiptoName">
+          <DataField>ShiptoName</DataField>
+        </Field>
+        <Field Name="AmountTh">
+          <DataField>AmountTh</DataField>
+        </Field>
+        <Field Name="PostingDescription">
+          <DataField>PostingDescription</DataField>
+        </Field>
+        <Field Name="TotalAmt1">
+          <DataField>TotalAmt1</DataField>
+        </Field>
+        <Field Name="TotalAmt1Format">
+          <DataField>TotalAmt1Format</DataField>
+        </Field>
+        <Field Name="TotalAmt2">
+          <DataField>TotalAmt2</DataField>
+        </Field>
+        <Field Name="TotalAmt2Format">
+          <DataField>TotalAmt2Format</DataField>
+        </Field>
+        <Field Name="TotalAmt3">
+          <DataField>TotalAmt3</DataField>
+        </Field>
+        <Field Name="TotalAmt3Format">
+          <DataField>TotalAmt3Format</DataField>
+        </Field>
+        <Field Name="TotalAmt4">
+          <DataField>TotalAmt4</DataField>
+        </Field>
+        <Field Name="TotalAmt4Format">
+          <DataField>TotalAmt4Format</DataField>
+        </Field>
+        <Field Name="TotalAmt5">
+          <DataField>TotalAmt5</DataField>
+        </Field>
+        <Field Name="TotalAmt5Format">
+          <DataField>TotalAmt5Format</DataField>
+        </Field>
+        <Field Name="VatText">
+          <DataField>VatText</DataField>
+        </Field>
+        <Field Name="CommentLine">
+          <DataField>CommentLine</DataField>
+        </Field>
+        <Field Name="CommentLine2">
+          <DataField>CommentLine2</DataField>
+        </Field>
+        <Field Name="CommentLine3">
+          <DataField>CommentLine3</DataField>
+        </Field>
+        <Field Name="deliveryAddress">
+          <DataField>deliveryAddress</DataField>
+        </Field>
+        <Field Name="Comment">
+          <DataField>Comment</DataField>
+        </Field>
+        <Field Name="DimName2">
+          <DataField>DimName2</DataField>
+        </Field>
+        <Field Name="DimName1">
+          <DataField>DimName1</DataField>
+        </Field>
+        <Field Name="No">
+          <DataField>No</DataField>
+        </Field>
+        <Field Name="LineDescription">
+          <DataField>LineDescription</DataField>
+        </Field>
+        <Field Name="LineDescription2">
+          <DataField>LineDescription2</DataField>
+        </Field>
+        <Field Name="LineCost">
+          <DataField>LineCost</DataField>
+        </Field>
+        <Field Name="LineCostFormat">
+          <DataField>LineCostFormat</DataField>
+        </Field>
+        <Field Name="LineQty">
+          <DataField>LineQty</DataField>
+        </Field>
+        <Field Name="LineQtyFormat">
+          <DataField>LineQtyFormat</DataField>
+        </Field>
+        <Field Name="LineUnit">
+          <DataField>LineUnit</DataField>
+        </Field>
+        <Field Name="LineDiscounAmount">
+          <DataField>LineDiscounAmount</DataField>
+        </Field>
+        <Field Name="LineDiscounAmountFormat">
+          <DataField>LineDiscounAmountFormat</DataField>
+        </Field>
+        <Field Name="LineNo">
+          <DataField>LineNo</DataField>
+        </Field>
+        <Field Name="Output">
+          <DataField>Output</DataField>
+        </Field>
+        <Field Name="DataOFLine">
+          <DataField>DataOFLine</DataField>
+        </Field>
+        <Field Name="Line_Amount">
+          <DataField>Line_Amount</DataField>
+        </Field>
+        <Field Name="Line_AmountFormat">
+          <DataField>Line_AmountFormat</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
   <ReportSections>
     <ReportSection>
       <Body>
@@ -687,7 +910,7 @@
                                                   </TextRun>
                                                 </TextRuns>
                                                 <Style>
-                                                  <TextAlign>Right</TextAlign>
+                                                  <TextAlign>Center</TextAlign>
                                                 </Style>
                                               </Paragraph>
                                             </Paragraphs>
@@ -9043,6 +9266,12 @@
       </Page>
     </ReportSection>
   </ReportSections>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>2</NumberOfRows>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
   <Code>Public Function BlankZero(ByVal Value As Decimal)
     if Value = 0 then
         Return ""
@@ -9121,227 +9350,4 @@ End Function
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
   <rd:ReportUnitType>Cm</rd:ReportUnitType>
   <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
-  <DataSets>
-    <DataSet Name="DataSet_Result">
-      <Fields>
-        <Field Name="CompName">
-          <DataField>CompName</DataField>
-        </Field>
-        <Field Name="CompAdd">
-          <DataField>CompAdd</DataField>
-        </Field>
-        <Field Name="CompAdd2">
-          <DataField>CompAdd2</DataField>
-        </Field>
-        <Field Name="CompPicture">
-          <DataField>CompPicture</DataField>
-        </Field>
-        <Field Name="CompPhone">
-          <DataField>CompPhone</DataField>
-        </Field>
-        <Field Name="ComFax">
-          <DataField>ComFax</DataField>
-        </Field>
-        <Field Name="ComTaxID">
-          <DataField>ComTaxID</DataField>
-        </Field>
-        <Field Name="ComMail">
-          <DataField>ComMail</DataField>
-        </Field>
-        <Field Name="BuyFromCode">
-          <DataField>BuyFromCode</DataField>
-        </Field>
-        <Field Name="BuyFromName">
-          <DataField>BuyFromName</DataField>
-        </Field>
-        <Field Name="BuyFromAdd">
-          <DataField>BuyFromAdd</DataField>
-        </Field>
-        <Field Name="BuyFromAdd2">
-          <DataField>BuyFromAdd2</DataField>
-        </Field>
-        <Field Name="BuyFromContact">
-          <DataField>BuyFromContact</DataField>
-        </Field>
-        <Field Name="BuyFromPhone">
-          <DataField>BuyFromPhone</DataField>
-        </Field>
-        <Field Name="BuyFromFax">
-          <DataField>BuyFromFax</DataField>
-        </Field>
-        <Field Name="DocumentNo">
-          <DataField>DocumentNo</DataField>
-        </Field>
-        <Field Name="DocumentDate">
-          <DataField>DocumentDate</DataField>
-        </Field>
-        <Field Name="DocumentAmount">
-          <DataField>DocumentAmount</DataField>
-        </Field>
-        <Field Name="DocumentAmountFormat">
-          <DataField>DocumentAmountFormat</DataField>
-        </Field>
-        <Field Name="DocumentVATAmount">
-          <DataField>DocumentVATAmount</DataField>
-        </Field>
-        <Field Name="DocumentVATAmountFormat">
-          <DataField>DocumentVATAmountFormat</DataField>
-        </Field>
-        <Field Name="DocumentVAT">
-          <DataField>DocumentVAT</DataField>
-        </Field>
-        <Field Name="DocumentVATFormat">
-          <DataField>DocumentVATFormat</DataField>
-        </Field>
-        <Field Name="DocumentVATText">
-          <DataField>DocumentVATText</DataField>
-        </Field>
-        <Field Name="VendTaxID">
-          <DataField>VendTaxID</DataField>
-        </Field>
-        <Field Name="VendContract">
-          <DataField>VendContract</DataField>
-        </Field>
-        <Field Name="VendMail">
-          <DataField>VendMail</DataField>
-        </Field>
-        <Field Name="VendorOrderNo">
-          <DataField>VendorOrderNo</DataField>
-        </Field>
-        <Field Name="PaytoName">
-          <DataField>PaytoName</DataField>
-        </Field>
-        <Field Name="PurchaserName">
-          <DataField>PurchaserName</DataField>
-        </Field>
-        <Field Name="PurchaserPhone">
-          <DataField>PurchaserPhone</DataField>
-        </Field>
-        <Field Name="PurhcaserMail">
-          <DataField>PurhcaserMail</DataField>
-        </Field>
-        <Field Name="RefPRNo">
-          <DataField>RefPRNo</DataField>
-        </Field>
-        <Field Name="ExpectedReceiptDate">
-          <DataField>ExpectedReceiptDate</DataField>
-        </Field>
-        <Field Name="PaymentTermDesc">
-          <DataField>PaymentTermDesc</DataField>
-        </Field>
-        <Field Name="ShiptoName">
-          <DataField>ShiptoName</DataField>
-        </Field>
-        <Field Name="AmountTh">
-          <DataField>AmountTh</DataField>
-        </Field>
-        <Field Name="PostingDescription">
-          <DataField>PostingDescription</DataField>
-        </Field>
-        <Field Name="TotalAmt1">
-          <DataField>TotalAmt1</DataField>
-        </Field>
-        <Field Name="TotalAmt1Format">
-          <DataField>TotalAmt1Format</DataField>
-        </Field>
-        <Field Name="TotalAmt2">
-          <DataField>TotalAmt2</DataField>
-        </Field>
-        <Field Name="TotalAmt2Format">
-          <DataField>TotalAmt2Format</DataField>
-        </Field>
-        <Field Name="TotalAmt3">
-          <DataField>TotalAmt3</DataField>
-        </Field>
-        <Field Name="TotalAmt3Format">
-          <DataField>TotalAmt3Format</DataField>
-        </Field>
-        <Field Name="TotalAmt4">
-          <DataField>TotalAmt4</DataField>
-        </Field>
-        <Field Name="TotalAmt4Format">
-          <DataField>TotalAmt4Format</DataField>
-        </Field>
-        <Field Name="TotalAmt5">
-          <DataField>TotalAmt5</DataField>
-        </Field>
-        <Field Name="TotalAmt5Format">
-          <DataField>TotalAmt5Format</DataField>
-        </Field>
-        <Field Name="VatText">
-          <DataField>VatText</DataField>
-        </Field>
-        <Field Name="CommentLine">
-          <DataField>CommentLine</DataField>
-        </Field>
-        <Field Name="CommentLine2">
-          <DataField>CommentLine2</DataField>
-        </Field>
-        <Field Name="CommentLine3">
-          <DataField>CommentLine3</DataField>
-        </Field>
-        <Field Name="deliveryAddress">
-          <DataField>deliveryAddress</DataField>
-        </Field>
-        <Field Name="Comment">
-          <DataField>Comment</DataField>
-        </Field>
-        <Field Name="DimName2">
-          <DataField>DimName2</DataField>
-        </Field>
-        <Field Name="DimName1">
-          <DataField>DimName1</DataField>
-        </Field>
-        <Field Name="No">
-          <DataField>No</DataField>
-        </Field>
-        <Field Name="LineDescription">
-          <DataField>LineDescription</DataField>
-        </Field>
-        <Field Name="LineDescription2">
-          <DataField>LineDescription2</DataField>
-        </Field>
-        <Field Name="LineCost">
-          <DataField>LineCost</DataField>
-        </Field>
-        <Field Name="LineCostFormat">
-          <DataField>LineCostFormat</DataField>
-        </Field>
-        <Field Name="LineQty">
-          <DataField>LineQty</DataField>
-        </Field>
-        <Field Name="LineQtyFormat">
-          <DataField>LineQtyFormat</DataField>
-        </Field>
-        <Field Name="LineUnit">
-          <DataField>LineUnit</DataField>
-        </Field>
-        <Field Name="LineDiscounAmount">
-          <DataField>LineDiscounAmount</DataField>
-        </Field>
-        <Field Name="LineDiscounAmountFormat">
-          <DataField>LineDiscounAmountFormat</DataField>
-        </Field>
-        <Field Name="LineNo">
-          <DataField>LineNo</DataField>
-        </Field>
-        <Field Name="Output">
-          <DataField>Output</DataField>
-        </Field>
-        <Field Name="DataOFLine">
-          <DataField>DataOFLine</DataField>
-        </Field>
-        <Field Name="Line_Amount">
-          <DataField>Line_Amount</DataField>
-        </Field>
-        <Field Name="Line_AmountFormat">
-          <DataField>Line_AmountFormat</DataField>
-        </Field>
-      </Fields>
-      <Query>
-        <DataSourceName>DataSource</DataSourceName>
-        <CommandText />
-      </Query>
-    </DataSet>
-  </DataSets>
 </Report>
