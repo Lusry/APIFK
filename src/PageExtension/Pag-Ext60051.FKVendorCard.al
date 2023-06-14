@@ -9,7 +9,7 @@ pageextension 60051 "FK Vendor Card" extends "Vendor Card"
         {
             group(FKInterface)
             {
-                Caption = 'Interface';
+                Caption = 'Intranet';
                 ShowCaption = false;
                 field("Supplier Eng Name"; Rec."Supplier Eng Name")
                 {
