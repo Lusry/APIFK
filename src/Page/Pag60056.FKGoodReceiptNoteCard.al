@@ -33,11 +33,11 @@ page 60056 "FK Good ReceiptNote Card"
                     ApplicationArea = all;
                     ToolTip = 'Specifies value of the field.';
                 }
-                field("TPP Posting Description"; Rec."Posting Description")
-                {
-                    ApplicationArea = all;
-                    ToolTip = 'Specifies value of the field.';
-                }
+                // field("TPP Posting Description"; Rec."Posting Description")
+                // {
+                //     ApplicationArea = all;
+                //     ToolTip = 'Specifies value of the field.';
+                // }
                 group("TPP Buy-from")
                 {
                     Caption = 'Buy-From';
@@ -98,21 +98,21 @@ page 60056 "FK Good ReceiptNote Card"
                     ApplicationArea = all;
                     ToolTip = 'Specifies value of the field.';
                 }
-                field("TPP Vendor Invoice No."; Rec."Vendor Invoice No.")
-                {
-                    ApplicationArea = all;
-                    ToolTip = 'Specifies value of the field.';
-                }
+                // field("TPP Vendor Invoice No."; Rec."Vendor Invoice No.")
+                // {
+                //     ApplicationArea = all;
+                //     ToolTip = 'Specifies value of the field.';
+                // }
                 field("TPP Purchaser Code"; Rec."Purchaser Code")
                 {
                     ApplicationArea = all;
                     ToolTip = 'Specifies value of the field.';
                 }
-                field("TPP No. of Archived Versions"; Rec."No. of Archived Versions")
-                {
-                    ApplicationArea = all;
-                    ToolTip = 'Specifies value of the field.';
-                }
+                // field("TPP No. of Archived Versions"; Rec."No. of Archived Versions")
+                // {
+                //     ApplicationArea = all;
+                //     ToolTip = 'Specifies value of the field.';
+                // }
                 field("TPP Order Date"; Rec."Order Date")
                 {
                     ApplicationArea = all;
@@ -123,16 +123,16 @@ page 60056 "FK Good ReceiptNote Card"
                     ApplicationArea = all;
                     ToolTip = 'Specifies value of the field.';
                 }
-                field("TPP Vendor Order No."; Rec."Vendor Order No.")
-                {
-                    ApplicationArea = all;
-                    ToolTip = 'Specifies value of the field.';
-                }
-                field("TPP Vendor Shipment No."; Rec."Vendor Shipment No.")
-                {
-                    ApplicationArea = all;
-                    ToolTip = 'Specifies value of the field.';
-                }
+                // field("TPP Vendor Order No."; Rec."Vendor Order No.")
+                // {
+                //     ApplicationArea = all;
+                //     ToolTip = 'Specifies value of the field.';
+                // }
+                // field("TPP Vendor Shipment No."; Rec."Vendor Shipment No.")
+                // {
+                //     ApplicationArea = all;
+                //     ToolTip = 'Specifies value of the field.';
+                // }
                 field("TPP Order Address Code"; Rec."Order Address Code")
                 {
                     ApplicationArea = all;

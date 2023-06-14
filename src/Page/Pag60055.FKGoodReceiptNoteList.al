@@ -52,11 +52,11 @@ page 60055 "FK Good ReceiptNote List"
                     ApplicationArea = all;
                     ToolTip = 'Specifies value of the field.';
                 }
-                field("TPP Posting Description"; Rec."Posting Description")
-                {
-                    ApplicationArea = all;
-                    ToolTip = 'Specifies value of the field.';
-                }
+                // field("TPP Posting Description"; Rec."Posting Description")
+                // {
+                //     ApplicationArea = all;
+                //     ToolTip = 'Specifies value of the field.';
+                // }
                 field("TPP Vendor Shipment No."; Rec."Vendor Shipment No.")
                 {
                     ApplicationArea = all;
